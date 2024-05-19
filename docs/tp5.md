@@ -112,11 +112,10 @@ Nous allons commencer par tester le streaming en local, comme d'habitude. Pour c
 
 ## Lancement du code sur le cluster
 
-<!-- Pour lancer le code précédent sur le cluster, il faudra d'abord faire une petite modification: **changer la valeur _localhost_ par l'IP de votre machine hote** (celle que vous utilisez pour lancer la commande _nc_).  -->
 Nous allons directement lancer le code sur le cluster, car nous allons utiliser une petite commande utilitaire qui se trouve dans la majorité des systèmes Unix-like: `netcat`.
   
   * Générer le fichier jar.
-  * Copier le fichier jar sur le contenaire master. On l'appellera `stream.jar`
+  * Copier le fichier jar sur le contenaire master. On l'appellera `stream-1.jar`
   * Installer la commande netcat sur le contenaire master comme suit:
     * D'abord, faire un update de la liste ds packages sur votre contenaire:
     ```bash
