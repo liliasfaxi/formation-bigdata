@@ -1,32 +1,26 @@
 
 
-## GL4 - INSAT
-
-<img style="float: left;" width="120pt" src="img/insat.png">
-
-* Cours Disponible ici: http://liliasfaxi.wixsite.com/liliasfaxi/big-data
-* Google Classroom : https://classroom.google.com/c/NjI3ODUwNjEyNzYz 
-* Repo Github :  https://github.com/INSATunisia/TP-BigData
+## Formation Big Data
 
 
-##
 ## Overview
 
-Vous trouverez sur mon [site officiel](http://liliasfaxi.wixsite.com/liliasfaxi/big-data) le cours Big Data associé à ces TPs. L'objectif de ce cours est d'initier les étudiants aux architectures Big Data: Les notions, technologies, patrons et bonnes pratiques.
-Le cours comportera les chapitres suivants:
+Ces travaux pratiques permettront de manipuler deux des technologies phares de l'écosystème Big Data: Hadoop et Spark. 
 
-* Introduction au Big Data
-* Hadoop et Map Reduce
-* Traitement de données (Batch, Streaming, Temps Réel, etc.)
-* Bases de données NoSQL
-* _Putting it all together_
+Ils seront répartis comme suit:
 
-Ce cours comporte quatre séances de travaux pratiques:
+* [Partie 1](tp1): Hadoop HDFS
+* [Partie 2](tp2): Hadoop Map Reduce
+* [Partie 3](tp3): Tratement par Lot avec Spark
+* [Partie 4](tp4): Tratement en Streaming avec Spark
 
-* TP1: Hadoop et Map Reduce
-* TP2: Apache Spark
-* TP3: Apache Kafka
-* TP4: HBase
+## Outils et Versions
+* [Apache Hadoop](http://hadoop.apache.org/) Version: 3.3.6.
+* [Apache Spark](https://spark.apache.org/) Version: 3.5.0
+* [Docker](https://www.docker.com/) Version *latest*
+* [Visual Studio Code](https://code.visualstudio.com/) Version 1.85.1 (ou tout autre IDE de votre choix)
+* [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) Version 1.8.
+* Unix-like ou Unix-based Systems (Divers Linux et MacOS)
 
 _Lilia SFAXI_
 

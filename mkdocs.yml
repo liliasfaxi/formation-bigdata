@@ -1,14 +1,14 @@
-site_name: TP Big Data
-site_description: Les Travaux Pratiques du cours Big Data
+site_name: Formation Big Data
+site_description: Formation sur les Infrastructures Big Data
 site_author: Lilia Sfaxi
-site_url: http://INSATunisia.github.io/TP-BigData/
+site_url: http://liliasfaxi.github.io/formation-bigdata
 
 # Repository
-repo_name: INSATunisia/TP-BigData
-repo_url: https://github.com/INSATunisia/TP-BigData
+repo_name: liliasfaxi/formation-bigdata
+repo_url: https://github.com/liliasfaxi/formation-bigdata
 
 # Copyright
-copyright: 'Copyright &copy; 2017 - 2024 Lilia Sfaxi'
+copyright: 'Copyright &copy; 2024 Lilia Sfaxi'
 
 # Theme directory
 plugins:
@@ -55,8 +55,8 @@ theme:
   palette:
     text: 'Ubuntu'
     code: 'Ubuntu Mono'
-    primary: Blue
-    accent: Yellow
+    primary: Red
+    accent: Orange
 extra_css:
   - 'stylesheets/extra.css'
   - 'stylesheets/links.css'
@@ -73,10 +73,10 @@ social:
 
 # Page tree
 pages:
-   - Travaux Pratiques Big Data: 'index.md'
-   - TP1 - Le traitement Batch avec Hadoop HDFS et Map Reduce: 'tp1.md'
-   - TP2 - Traitement par Lot et Streaming avec Spark: 'tp2.md'
-   - TP3 - La Collecte de Données avec le Bus Kafka: 'tp3.md'
-   - TP4 - Stockage de Données dans une Base NOSQL avec HBase: 'tp4.md'
+   - Partie 1 - Hadoop HDFS: 'tp1.md'
+   - Partie 2 - Hadoop Map Reduce: 'tp2.md'
+   - Partie 3 - Spark Shell: 'tp3.md'
+   - Partie 4 - Traitement par Lot avec Spark: 'tp4.md'
+   - Partie 5 - Traitement Streaming avec Spark: 'tp5.md'
 
 
