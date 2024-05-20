@@ -45,6 +45,12 @@ Nous allons commencer par tester le streaming en local, comme d'habitude. Pour c
           <artifactId>spark-streaming_2.13</artifactId>
           <version>3.5.0</version>
       </dependency>
+      <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.13</artifactId>
+            <version>3.5.0</version>
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
   </project>
