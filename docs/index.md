@@ -11,16 +11,15 @@ Ils seront répartis comme suit:
 
 * [Partie 1](tp1): Hadoop HDFS
 * [Partie 2](tp2): Hadoop Map Reduce
-* [Partie 3](tp3): Tratement par Lot avec Spark
-* [Partie 4](tp4): Tratement en Streaming avec Spark
+* [Partie 3](tp3): Traitement par Lot avec Spark
+* [Partie 4](tp4): Traitement en Streaming avec Spark
 
 ## Outils et Versions
 * [Apache Hadoop](http://hadoop.apache.org/) Version: 3.3.6.
 * [Apache Spark](https://spark.apache.org/) Version: 3.5.0
 * [Docker](https://www.docker.com/) Version *latest*
-* [Visual Studio Code](https://code.visualstudio.com/) Version 1.85.1 (ou tout autre IDE de votre choix)
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/) Version *latest* (ou tout autre IDE de votre choix)
 * [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) Version 1.8.
-* Unix-like ou Unix-based Systems (Divers Linux et MacOS)
 
 _Lilia SFAXI_
 

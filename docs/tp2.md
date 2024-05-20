@@ -229,7 +229,7 @@ Dans votre projet sur IntelliJ:
 Hello Wordcount!
 Hello Hadoop!
 ```
-  * Nous allons maintenant définir des arguments à la méthode Main: le fichier en entrée sur lequel Map reduce va travailler, et le répertoire en sortie dans lequel le résultat sera stocké. Pour cela:
+  * Nous allons maintenant définir des arguments de la méthode Main: le fichier en entrée sur lequel Map reduce va travailler, et le répertoire en sortie dans lequel le résultat sera stocké. Pour cela:
     * Cliquer sur le bouton _Add Configuration..._ qui se trouve en haut à droite de votre fenêtre principale dans IntelliJ, ou alors aller vers le menu _Run -> Edit Configurations..._
     * Cliquer sur le bouton + en haut à gauche de la fenêtre qui vient de s'ouvrir. 
     * Choisir _Application_ dans la liste.
@@ -246,6 +246,17 @@ Hello Hadoop!
   Hello	2
   Wordcount!	1
   ```
+
+
+???bug "Pour les utilisateurs.trices de Windows"
+    Les utilisateurs.trices de Windows vont certainement rencontrer l'erreur suivante: `HADOOP_HOME and hadoop.home.dir are unset.`.
+    Pour y remédier, suivre les étapes suivantes:
+      
+      * Télécharger de ce [projet](https://github.com/cdarlint/winutils) le répertoire correspondant à la version de Hadoop utilisée (ici 3.3.6) quelque part sur votre machine. Appelons ce quelque part _REP_.
+      * Créer la variable d'environnement HADOOP_HOME aux variables système, et y associer la valeur _REP_
+      * Ajouter à la variable d'environnement PATH le répertoire `$HADOOP_HOME/bin`
+    Sinon, vous pouvez toujours utiliser Linux.. 
+
 
 #### Lancer Map Reduce sur le cluster
 Dans votre projet IntelliJ:
