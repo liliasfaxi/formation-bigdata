@@ -101,7 +101,7 @@ public class WordCountTask {
   private static final Logger LOGGER = LoggerFactory.getLogger(WordCountTask.class);
 
   public static void main(String[] args) {
-      checkArgument(args.length > 1, "Please provide the path of input file and output dir as parameters.");
+      Preconditions.checkArgument(args.length > 1, "Please provide the path of input file and output dir as parameters.");
       new WordCountTask().run(args[0], args[1]);
   }
 
