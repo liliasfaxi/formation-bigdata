@@ -325,3 +325,10 @@ Il vous est possible de monitorer vos Jobs Map Reduce, en allant à la page: ```
 Il est également possible de voir le comportement des noeuds workers, en allant à l'adresse: ```http://localhost:8041``` pour _worker1_, et ```http://localhost:8042``` pour _worker2_. Vous obtiendrez ce qui suit:
 
 ![Job MR](img/tp2/worker-mr.png)
+
+!!! note "Application"
+    Écrire un Job Map Reduce permettant, à partir du fichier _purchases_ initial, de déterminer le total des ventes par magasin. Il est à noter que la structure du fichier _purchases_ est de la forme suivante:
+    ```
+      date   temps   magasin   produit   cout   paiement
+    ```
+    Veiller à toujours tester votre code en local avant de lancer un job sur le cluster!
